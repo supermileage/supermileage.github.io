@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: supermileage.github.io
+  repo: supermileage/supermileage.github.io
   branch: master
-  site_domain: # todo
+  site_domain: pedantic-hypatia-625452.netlify.com
 
 media_folder: "static/img"
 
