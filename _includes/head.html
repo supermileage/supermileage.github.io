@@ -1,0 +1,43 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  {% assign title = page.title | append: " - " | append: site.name %}
+
+  {% if page.url == "/" %}
+  <title>{{ site.name }}</title>
+  {% else %}
+  <title>{{ title }}</title>
+  {% endif %}
+  <!-- Bootstrap core CSS -->
+  <link href={{"static/vendor/bootstrap/css/bootstrap.min.css" | relative_url }} rel="stylesheet" />
+
+  <!-- Custom fonts -->
+  <link href={{"static/vendor/fontawesome-free/css/all.min.css" | relative_url }} rel="stylesheet" type="text/css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+  <!-- Custom styles -->
+  <link href={{ "static/css/style.css" | relative_url }} rel="stylesheet" />
+
+  <!-- Bootstrap core JavaScript -->
+  <script src={{ "static/vendor/jquery/jquery.min.js" | relative_url }} type="text/javascript" defer="defer"></script>
+  <script src={{ "static/vendor/bootstrap/js/bootstrap.bundle.min.js" | relative_url }} type="text/javascript"
+    defer="defer"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src={{ "static/vendor/jquery-easing/jquery.easing.min.js" | relative_url }} type="text/javascript"
+    defer="defer"></script>
+
+  <!-- Custom scripts -->
+  <script src={{ "static/js/nav.js" | relative_url }} type="text/javascript" defer="defer"></script>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href={{ "static/favicon/apple-touch-icon.png" | relative_url }}>
+  <link rel="icon" type="image/png" sizes="32x32" href={{ "static/favicon/favicon-32x32.png" | relative_url }}>
+  <link rel="icon" type="image/png" sizes="16x16" href={{ "static/favicon/favicon-16x16.png" | relative_url }}>
+  <link rel="manifest" href={{ "static/favicon/site.webmanifest" | relative_url }}>
+</head>

@@ -1,0 +1,23 @@
+#supporters {
+  .supporters-logo {
+    max-height: 150px;
+    max-width: 300px;
+    filter: grayscale(100%);
+  }
+  .top-buffer {
+    margin-top: 50px;
+  }
+  .supporters-logo:hover {
+    animation: color;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+  }
+  @keyframes color {
+    from {
+      display: initial;
+    }
+    to {
+      filter: none;
+    }
+  }
+}

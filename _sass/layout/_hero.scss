@@ -1,0 +1,53 @@
+// Styling for the hero
+header.hero {
+  text-align: center;
+  color: white;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  .intro-text {
+    padding-top: 50%;
+    .intro-lead-in {
+      font-size: 4vw;
+      font-style: italic;
+      line-height: 4vh;
+      margin-bottom: 25px;
+      @include serif-font;
+    }
+    .intro-heading {
+      font-size: 7vw;
+      font-weight: 700;
+      line-height: 4vh;
+      margin-bottom: 25px;
+      @include hero-font;
+    }
+  }
+}
+@media (min-width: 992px) {
+  header.hero {
+    .intro-text {
+      padding-top: 25%;
+      .intro-lead-in {
+        font-size: 28px;
+        font-style: italic;
+        line-height: 32px;
+        margin-bottom: 50px;
+        @include serif-font;
+      }
+      .intro-heading {
+        font-size: 75px;
+        font-weight: 500;
+        line-height: 75px;
+        margin-bottom: 50px;
+        @include hero-font;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  header.hero {
+    min-height: 320px;
+  }
+}

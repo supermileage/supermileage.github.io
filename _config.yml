@@ -1,0 +1,25 @@
+name: UBC Supermileage
+description: The University of British Columbia Supermileage Team
+url: "http://supermileage.ca"
+paginate: 5
+paginate_path: "blog/:num/" # Change this
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+
+defaults:
+  - scope:
+      path: "" # All files of the project
+    values:
+      layout: "default"
+      hero_image: default.jpg
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,0 +1,254 @@
+---
+hero_title: '<img src="static/img/ubc-logo.svg" alt="UBC logo" style="height: 75px; margin-bottom: 25px" /><div>Supermileage</div>'
+hero_subtitle: 'in pursuit of efficiency'
+hero_extra: '<a class="btn btn-primary btn js-scroll-trigger" href="#about">Learn More</a>'
+---
+<section class="page-section">
+  <style>
+    header.hero {
+      height: 100vh;
+    }
+  </style>
+  <div class="container" id="about">
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="text-heading">Who are we?</h4>
+        <p class="text-muted">
+          The UBC Supermileage team is a group of 65 dedicated engineering students working to design and
+          build fuel efficient gasoline powered vehicles for the Shell Eco-marathon Americas and the Society
+          of Automotive Engineers (SAE) Supermileage Competitions. Our diverse team includes technical
+          students from mechanical, eng-physics, integrated,computer, electrical, chemical, and manufacturing
+          engineering as well as business, science, and more.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h4 class="text-heading">What do we do?</h4>
+        <p class="text-muted">
+          Fuelathon competitions provide engineering and technology students with a challenging design project
+          that involves the development and construction of either a single-person, Prototype Concept or a
+          larger four wheeled Urban Concept car. Students design and build <strong>conventional
+            gas-powered</strong>, for the Prototype Concept, or <strong>battery electric-powered</strong>,
+          for the Urban Concept, ultra-efficient vehicles. As a team, we aim to set a world fuel economy
+          record and increase public awareness for fuel economy, efficiency, and sustainability. Students
+          become more sensitive to environmental issues as well as develop important project management
+          skills.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- <h2 class="section-heading text-uppercase">About Us</h2> -->
+        <h3 class="section-subheading text-muted">
+          Learn more about our history <a href={{"aboutus" | relative_url }}>here</a>.
+        </h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-light page-section" id="modal">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Our Cars</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              Learn More
+            </div>
+          </div>
+          <img class="img-fluid" src={{ "static/img/UBCST-Urban-2.svg" | relative_url }} alt="" />
+        </a>
+        <div class="portfolio-caption">
+          <h4>Urban Concept Class</h4>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              Learn More
+            </div>
+          </div>
+          <img class="img-fluid" src={{ "static/img/UBCST-Proto-2.svg" | relative_url }} alt="" />
+        </a>
+        <div class="portfolio-caption">
+          <h4>Prototype Class</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sponsors -->
+<!-- <section class="page-section" id="supporters">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Sponsors</h2>
+        <h3 class="section-subheading text-muted">
+          Thank you to all our sponsors!
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="img-fluid d-block mx-auto supporters-logo" src="static/img/shell.png" alt="" />
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid d-block mx-auto supporters-logo" src="static/img/dff.png" alt="" />
+      </div>
+      <div class="col-sm-4">
+        <img class="img-fluid d-block mx-auto supporters-logo" src="static/img/egbc.jpg" alt="" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid d-block mx-auto supporters-logo top-buffer" src="static/img/hcs_logo.png" alt="" />
+      </div>
+      <div class="col-sm-6">
+        <img class="img-fluid d-block mx-auto supporters-logo top-buffer" src="static/img/ubc-mech.png" alt="" />
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Car Modals -->
+
+<!-- Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Zeus</h2>
+              <p class="item-intro text-muted">Urban Concept Class</p>
+              <img class="img-fluid d-block mx-auto" src="static/img/UBCST-Urban-1.svg" alt="" />
+              <p>
+                The Urban Concept Car is a more practical vehicle meant to bridge the gap between the
+                prototype vehicle and the vehicles you see on the road today. With the advent of
+                consumer level electric cars, we converted our Urban Concept to a battery electric
+                vehicle in 2018. It only competes at the Shell Eco-Marathon. Teams are required to
+                design the vehicle with a minimum of four wheels, larger stance, headlights, tail
+                lights, turn signals and other practical considerations that the average city vehicle
+                requires today.
+              </p>
+              <h3 class="text-uppercase">Motor</h3>
+              <p class="item-intro text-muted">Honda GXH 50</p>
+              <h3 class="text-uppercase">Chassis</h3>
+              <p class="item-intro text-muted">1" Nomex</p>
+              <p>
+                Our current Urban Concept vehicle uses a carbon fibre-Nomex sandwich where 1" of
+                lightweight Nomex honeycomb is sandwiched between layers of carbon fibre reinforced
+                polymer on both sides. The wider width of the Urban Concept chassis allows for the
+                chassis thickness to be reduced without compromising rigidity. The total weight of the
+                chassis (including all components except the engine) is approximately 120 lbs.
+              </p>
+              <h3 class="text-uppercase">Casper</h3>
+              <p class="item-intro text-muted">2-Gear Box</p>
+              <h3 class="text-uppercase">Steering</h3>
+              <p class="item-intro text-muted">Formula 1 Style</p>
+              <p>
+                The Urban Concept steering system is based on Formula 1 style steering. The steering
+                wheel operates like those found in regular cars, and switches for controls such as the
+                starter motor, lights, and windshield motor are situated in the centre area of the
+                wheel. Steering for this vehicle is operated through the front wheels.
+              </p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">MARK XIV</h2>
+              <p class="item-intro text-muted">Prototype Class</p>
+              <img class="img-fluid d-block mx-auto" src="static/img/UBCST-Proto-2.svg" alt="" />
+              <p>
+                The Prototype vehicle is a three wheeled, single-passenger vehicle meant to push the
+                limits of fuel efficiency. It competes in the Shell Eco-Marathon, and SAE Supermileage
+                competitions. This competition class has very few limits on design, allowing a number of
+                creative solutions in order to achieve extremely high fuel mileage. With optimization of
+                aerodynamics, weight, and rolling resistance, we maximize the performance of our heavily
+                modified engine.
+              </p>
+              <h3 class="text-uppercase">Engine</h3>
+              <p class="item-intro text-muted">Briggs Stratton 206</p>
+              <p>
+                The engine used in our Prototype vehicle is a Briggs & Stratton Junior206. This engine
+                is standard for all teams in the SAE Supermileage Competition. This stock engine is
+                205cc’s with a maximum horsepower rating of 8 horsepower and a torque of 10 ft-lb. This
+                year, a custom cylinder head has been designed to increase the compression ratio from
+                8.5:1 to 12:1. This will achieve a decreased displacement from 205cc to 68cc, resulting
+                in a greater thermal efficiency.
+              </p>
+              <h3 class="text-uppercase">Chassis</h3>
+              <p class="item-intro text-muted">1.5" Nomex</p>
+              <p>
+                Our current Prototype vehicle uses a carbon fibre - Nomex sandwich where 1.5" of
+                lightweight Nomex honeycomb is sandwiched between carbon fibre and Kevlar reinforced
+                polymer on both sides. The use of thicker Nomex than the Urban Concept is to compensate
+                for the narrower chassis, which is reduced in size to minimize weight. The total weight
+                of the chassis (including all components except the engine) is less than 80 lbs.
+              </p>
+              <h3 class="text-uppercase">Drivetrain</h3>
+              <p class="item-intro text-muted">Jackshaft</p>
+              <p>
+                The newly innovated powertrain is configured as a two-stage, fixed-pulley reduction
+                system. As the name implies, there are two pulley reductions from the engine to the
+                wheel. The flexible drive of the powertrain has been switched from roller chains to
+                carbon fiber timing belts to optimize weight, while maintaining a high strength. In
+                addition, timing belts can deliver comparable efficiency to a roller chain system,
+                however, there is less maintenance associated with timing belts. By designing our
+                vehicle to run at a maximum speed of 50 km/hr, this system allows our engine to transmit
+                power at its optimal speed.
+              </p>
+              <h3 class="text-uppercase">Steering</h3>
+              <p class="item-intro text-muted">Handlebars</p>
+              <p>
+                The Prototype vehicle steering system is similar to that of a motorcycle, where there
+                are two handlebars for steering, a throttle, and braking handlebars. The space inside
+                for the driver is very limited and the driver drives lying down, so this design allows
+                us to use the confined space efficiently. Steering for this vehicle is operated through
+                the front wheels.
+              </p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

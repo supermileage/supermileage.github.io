@@ -1,0 +1,26 @@
+{% assign hero = 'static/img/' | append: page.hero_image %}
+<style>
+  header {
+    background-image: linear-gradient(black 0%, rgba(0, 0, 0, 0.1) 80%),
+    url({{ hero | relative_url }});
+  }
+</style>
+<header class="hero">
+  <div class="container">
+    <div class="intro-text">
+      {% if page.hero_title %}
+      <div class="intro-heading text-uppercase">
+        {{ page.hero_title }}
+      </div>
+      {% endif %}
+      {% if page.hero_subtitle %}
+      <div class="intro-lead-in">
+        {{ page.hero_subtitle }}
+      </div>
+      {% endif %}
+      {% if page.hero_extra %}
+      {{ page.hero_extra }}
+      {% endif %}
+    </div>
+  </div>
+</header>
