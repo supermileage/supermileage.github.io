@@ -1,8 +1,9 @@
 #supporters {
   .supporters-logo {
-    max-height: 150px;
-    max-width: 300px;
-    filter: grayscale(100%);
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    filter: grayscale(100%) opacity(75%);
   }
   .top-buffer {
     margin-top: 50px;
@@ -11,6 +12,37 @@
     animation: color;
     animation-duration: 0.3s;
     animation-fill-mode: both;
+  }
+  .diamond {
+    img {
+      max-height: 300px;
+      // max-width: 300px;
+    }
+  }
+  .platinum {
+    img {
+      max-height: 150px;
+    }
+  }
+  .gold {
+    img {
+      max-height: 100px;
+    }
+  }
+  .silver {
+    img {
+      max-height: 75px;
+    }
+  }
+  .bronze {
+    img {
+      max-height: 75px;
+    }
+  }
+  .select {
+    img {
+      max-height: 75px;
+    }
   }
   @keyframes color {
     from {
