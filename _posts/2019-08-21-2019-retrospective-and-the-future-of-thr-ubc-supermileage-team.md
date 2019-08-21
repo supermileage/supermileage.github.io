@@ -18,7 +18,7 @@ At the Shell Eco-marathon, **we achieved second place in the internal combustion
 
 **Our newly converted battery electric Urban Concept also finished technical inspection**, although was unable to record a complete run. The decision to transition towards an electric vehicle stems from a realignment of team goals to promote the future of sustainability, where EVs are becoming increasingly important in the climate fight. Throughout the competition, and the lead up, our electrical team worked day and night to get our motor controller up and running while the mechanical team worked to ensure all the mechanical systems worked flawlessly. For an ambitious project, we are happy to have passed through the technical inspection process and we're excited to push the project to the next level next year!
 
-The SAE Supermileage competition is a storied competition for our UBC team, with a dynasty of success back from 2003 to 2006. We stopped going to SAE Supermileage after that until 2016, where we made a resurgence as the “Best Newcomer.” You can read more about our history in the about us section! 
+The SAE Supermileage competition is a storied competition for our UBC team, with a dynasty of success back from 2003 to 2006. We stopped going to SAE Supermileage after that until 2016, where we made a resurgence as the “Best Newcomer.” You can read more about our history in the [about us section](https://www.supermileage.ca/aboutus/)! 
 
 ## SAE Supermileage
 
