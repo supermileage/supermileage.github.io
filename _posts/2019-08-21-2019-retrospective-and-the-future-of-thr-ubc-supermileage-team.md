@@ -1,5 +1,5 @@
 ---
-title: 2019 Retrospective and the Future of thr UBC Supermileage Team
+title: 2019 Retrospective and the Future of the UBC Supermileage Team
 date: 2019-08-21T22:04:20.098Z
 tags:
   - >-
