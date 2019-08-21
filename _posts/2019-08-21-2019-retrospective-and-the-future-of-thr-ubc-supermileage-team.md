@@ -37,3 +37,9 @@ So where does that leave the team? We have many exciting projects for this comin
 But we are also looking to take on new challenges. We are planning to develop another vehicle to compete in the Shell Eco-marathon, a vehicle that is part of the team's forward-focused realignment. **For the 2019 year, we are excited to announce the initiation of development of a Prototype class vehicle in the hydrogen fuel cell division, slated to compete in the 2021 Shell Eco-marathon competition.** Fuel cells are another aspect of energy storage that can be done in a clean and reusable way through the use of stored hydrogen. In terms of energy density, hydrogen is unparalleled and has many potential applications in transportation through aviation and trucking industries. There's also potential applications for warehouse work in terms of zero emission forklifts and back-up power generation. With our foray into this class, we are again committing to our commitment to a clean future and are aiming for big results at the competition.
 
 2019 is an exciting year and we're continuing to look for talented engineers who will make help us make our vehicles better and for new sponsors who are deeply invested in the future of climate action and how we can empower the next generation of engineers. If you are excited about what's to come, check out how you can help by joining our team or by sponsoring our projects.
+
+
+
+**2019 Early Recruitment (Deadline September 2nd):**
+
+<https://ubc.ca1.qualtrics.com/jfe/form/SV_eY6lEeilZcpNCVD>
