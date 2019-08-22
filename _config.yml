@@ -14,7 +14,7 @@ defaults:
       path: "" # All files of the project
     values:
       layout: "default"
-      hero_image: default.jpg
+      hero_image: default_small.jpg
   - scope:
       path: "_posts"
     values:
