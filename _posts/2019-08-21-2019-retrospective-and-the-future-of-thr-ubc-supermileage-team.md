@@ -40,4 +40,4 @@ But we are also looking to take on new challenges. We are planning to develop an
 
 **2019 Early Recruitment (Deadline September 2nd):**
 
-<https://ubc.ca1.qualtrics.com/jfe/form/SV_eY6lEeilZcpNCVD>
+[Application Survey](https://ubc.ca1.qualtrics.com/jfe/form/SV_eY6lEeilZcpNCVD)
