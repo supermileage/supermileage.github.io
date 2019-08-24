@@ -13,7 +13,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
-        {% for item in site.data.navigation %}
+        {% for item in site.data.navigation.items %}
         <li class="nav-item">
           {% if page.url == item.url %}
           <a class="nav-link selected disabled" href={{ item.url | relative_url }}>{{ item.name }}</a>
