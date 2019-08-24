@@ -4,12 +4,15 @@ hero_title: '<img src="static/img/ubc-logo.svg" alt="UBC logo" style="height: 75
 hero_subtitle: 'in the pursuit of efficiency'
 hero_extra: '<a class="btn btn-primary btn js-scroll-trigger" href="#about">Learn More</a>'
 ---
+<style>
+  header.hero {
+    height: 100vh;
+  }
+  img {
+    object-fit: unset !important;
+  }
+</style>
 <section class="page-section">
-  <style>
-    header.hero {
-      height: 100vh;
-    }
-  </style>
   <div class="container" id="about">
     <div class="row">
       <div class="col-md-6">
@@ -55,29 +58,29 @@ hero_extra: '<a class="btn btn-primary btn js-scroll-trigger" href="#about">Lear
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
+      <div class="col-md-6 col-sm-6 modal-item">
+        <a class="modal-link" data-toggle="modal" href="#portfolioModal1">
+          <div class="modal-hover">
+            <div class="modal-hover-content">
               Learn More
             </div>
           </div>
           <img class="img-fluid" src={{ "static/img/UBCST-Urban-2.svg" | relative_url }} alt="" />
         </a>
-        <div class="portfolio-caption">
+        <div class="modal-caption">
           <h4>Urban Concept Class</h4>
         </div>
       </div>
-      <div class="col-md-6 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
+      <div class="col-md-6 col-sm-6 modal-item">
+        <a class="modal-link" data-toggle="modal" href="#portfolioModal2">
+          <div class="modal-hover">
+            <div class="modal-hover-content">
               Learn More
             </div>
           </div>
           <img class="img-fluid" src={{ "static/img/UBCST-Proto-2.svg" | relative_url }} alt="" />
         </a>
-        <div class="portfolio-caption">
+        <div class="modal-caption">
           <h4>Prototype Class</h4>
         </div>
       </div>
@@ -180,7 +183,7 @@ hero_extra: '<a class="btn btn-primary btn js-scroll-trigger" href="#about">Lear
 <!-- Car Modals -->
 
 <!-- Modal 1 -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -238,7 +241,7 @@ hero_extra: '<a class="btn btn-primary btn js-scroll-trigger" href="#about">Lear
 </div>
 
 <!-- Modal 2 -->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">

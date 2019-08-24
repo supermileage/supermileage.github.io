@@ -1,16 +1,11 @@
 items:
   - name: About Us
     url: /aboutus/
-
   - name: Competition
     url: /competition/
-
   - name: Blog
     url: /blog/
-
-  # This is some sort of low tech feature flag, I suppose
-  # - name: Join Us
-  #   url: /joinus/
-
+  - name: Join Us
+    url: /joinus/
   - name: Contact Us
     url: /contactus/

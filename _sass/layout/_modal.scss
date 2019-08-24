@@ -1,19 +1,22 @@
-// Styling for the portfolio section
+// Styling for the modal section
 #modal {
   .img-fluid {
+    object-fit: cover;
+    width: 100%;
     min-height: 150px;
     max-height: 200px;
   }
-  .portfolio-item {
+  .modal-item {
     right: 0;
     margin: 0 0 15px;
-    .portfolio-link {
+    .modal-link {
       position: relative;
       display: block;
+      background-color: $white;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
-      .portfolio-hover {
+      .modal-hover {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -25,7 +28,7 @@
         &:hover {
           opacity: 1;
         }
-        .portfolio-hover-content {
+        .modal-hover-content {
           font-size: 20px;
           position: absolute;
           top: 50%;
@@ -44,7 +47,7 @@
         }
       }
     }
-    .portfolio-caption {
+    .modal-caption {
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
@@ -67,7 +70,7 @@
   }
 }
 
-.portfolio-modal {
+.modal {
   .modal-dialog {
     margin: 1rem;
     max-width: 100vw;
@@ -137,7 +140,7 @@
 }
 
 @media (min-width: 1024px) {
-  .portfolio-modal {
+  .modal {
     .modal-dialog {
       margin: 1rem 8rem 1rem 8rem;
     }
@@ -145,7 +148,7 @@
 }
 
 @media (min-width: 1216px) {
-  .portfolio-modal {
+  .modal {
     .modal-dialog {
       margin: 1rem 12rem 1rem 12rem;
     }
@@ -153,7 +156,7 @@
 }
 
 @media (min-width: 1408px) {
-  .portfolio-modal {
+  .modal {
     .modal-dialog {
       margin: 1rem 20rem 1rem 20rem;
     }
@@ -162,7 +165,7 @@
 
 @media (min-width: 767px) {
   #portfolio {
-    .portfolio-item {
+    .modal-item {
       margin: 0 0 30px;
     }
   }
