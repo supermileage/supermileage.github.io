@@ -36,7 +36,7 @@ collections:
     label: "Redirects"
     folder: "r/"
     create: true
-    slug: "{{fields.title}}"
+    slug: "{{slug}}"
     fields:
       - {label: "supermileage.ca/r/", name: "title", widget: "string"}
       - {label: "URL", name: "redir_to", widget: "string"}
