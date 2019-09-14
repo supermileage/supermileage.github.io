@@ -32,4 +32,11 @@ collections:
             fields:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Link", name: "url", widget: "string"}
-            
+  - name: "redirects"
+    label: "Redirects"
+    folder: "r/"
+    create: true
+    slug: "{{fields.title}}"
+    fields:
+      - {label: "supermileage.ca/r/", name: "title", widget: "string"}
+      - {label: "URL", name: "redir_to", widget: "string"}

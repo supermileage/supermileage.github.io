@@ -19,6 +19,10 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
+  - scope:
+      path: "r"
+    values:
+      layout: "redirect"
 
 sass:
   sass_dir: _sass
