@@ -34,9 +34,16 @@ collections:
               - {label: "Link", name: "url", widget: "string"}
   - name: "redirects"
     label: "Redirects"
+    editor:
+      preview: false
     folder: "r/"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "supermileage.ca/r/", name: "title", widget: "string"}
-      - {label: "URL", name: "redir_to", widget: "string"}
+      - {
+          label: "URL", 
+          name: "redir_to", 
+          widget: "string", 
+          pattern: ['https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)', "Not a valid URL!"]
+        }
