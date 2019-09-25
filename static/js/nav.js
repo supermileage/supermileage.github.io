@@ -16,8 +16,8 @@
 
   // Add color on menu click
   var navbarColor = function() {
-    $(".navbar-toggler").click(() => {
-      setTimeout(() => {
+    $(".navbar-toggler").click(function() {
+      setTimeout(function() {
         if ($(".navbar-toggler").hasClass("collapsed")) {
           if (!pageScrolled) $("#mainNav").removeClass("navbar-shrink");
           navOpened = false;
