@@ -11,3 +11,4 @@ items:
     url: /contact/
   - name: Sponsor
     url: /sponsor/
+    class: rounded

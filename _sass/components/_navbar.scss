@@ -56,8 +56,8 @@
 }
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     -webkit-transition: padding-top $time, padding-bottom $time;
     -moz-transition: padding-top $time, padding-bottom $time;
     transition: padding-top $time, padding-bottom $time;
@@ -66,13 +66,23 @@
     .navbar-nav {
       .nav-item {
         .nav-link {
-          padding: 1.1em 1em !important;
+          padding: 1em 1.4em !important;
+        }
+      }
+      .rounded {
+        border: 2px solid white;
+        border-radius: 40px !important; // Bootstrap override
+        &:hover {
+          -webkit-transition: all $time;
+          -moz-transition: all $time;
+          transition: all $time;
+          border-color: darken($primary, 7.5%);
         }
       }
     }
     &.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
+      padding-top: 15px;
+      padding-bottom: 15px;
       background-color: $secondary;
       -webkit-transition: all $time;
       -moz-transition: all $time;
