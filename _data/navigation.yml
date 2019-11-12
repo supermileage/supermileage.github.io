@@ -1,11 +1,13 @@
 items:
-  - name: About Us
-    url: /aboutus/
+  - name: About
+    url: /about/
   - name: Competition
     url: /competition/
   - name: Blog
     url: /blog/
-  - name: Join Us
-    url: /joinus/
-  - name: Contact Us
-    url: /contactus/
+  - name: Join
+    url: /join/
+  - name: Contact
+    url: /contact/
+  - name: Sponsor
+    url: /sponsor/
