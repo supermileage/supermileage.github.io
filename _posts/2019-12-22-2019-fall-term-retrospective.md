@@ -14,13 +14,13 @@ This includes UBC's Imagine Day which showcased all the best parts of the univer
 
 The second event was the Energy Disruptors Unite Conference where we exhibited our Battery Electric Urban Concept and talked with others passionate about sustainability and how transportation is a critical aspect of achieving proper environmental stewardship.
 
-<img src="/static/img/edu1.jpg" alt="Energy Disruptors Unite!" title="Vehicle of the Future" width="50%"/>
+![Energy Disruptors Unite!](/static/img/edu1.jpg){: style="width: 600px"}
 
 The third event was the SAEBC Student Night which took place at BCIT this year. We got to meet the fine folks at the BCIT Baja team and the SFU Formula Electric team, both of whom shared some exciting projects. We got to talk with some of the other people and resources at SAEBC and were thrilled to know we have this support network behind us.
 
 The final event was the UBC Applied Science / Engineering Open House. We got to showcase our projects to high school students and the general public, something we think is critical to get people engaged in STEM and manufacturing a better future.
 
-<img src="/static/img/openhouse1.png" alt="Let's engage the public!" title="Applied Science Open House" width="50%"/>
+![Applied Science Open House](/static/img/openhouse1.png){: style="width: 600px"}
 
 On our technical side, our project leads have been hard at work to redesign some of the key components related to the handling and efficiency of our competition vehicles, as well as testing new processes, and designing components for our new fuel cell vehicle. 
 
