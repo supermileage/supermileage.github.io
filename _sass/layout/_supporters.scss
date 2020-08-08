@@ -3,25 +3,19 @@
     display: flex;
     align-items: center;
     margin: 25px;
-    filter: grayscale(100%) opacity(75%);
   }
   .top-buffer {
     margin-top: 50px;
   }
-  .supporters-logo:hover {
-    animation: color;
-    animation-duration: 0.3s;
-    animation-fill-mode: both;
-  }
   .diamond {
     img {
-      max-height: 300px;
+      max-height: 400px;
       // max-width: 300px;
     }
   }
   .platinum {
     img {
-      max-height: 150px;
+      max-height: 200px;
     }
   }
   .gold {
@@ -42,14 +36,6 @@
   .select {
     img {
       max-height: 75px;
-    }
-  }
-  @keyframes color {
-    from {
-      display: initial;
-    }
-    to {
-      filter: none;
     }
   }
 }
