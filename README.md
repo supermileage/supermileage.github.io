@@ -12,6 +12,9 @@ Clone the repo onto your own computer. Make sure you have Ruby installed; bundle
 
 Once you have Ruby installed, run these commands:
 
+Make sure to use a version of Ruby below 3.2, as some of the commands have been updated
+Additionally make sure you install the version with DevKit
+
 ```
 gem install jekyll bundler
 bundle install
